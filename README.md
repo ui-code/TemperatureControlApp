@@ -1,6 +1,6 @@
 # TemperatureControlApp\
 Convert UI Design to HTML, CSS Using Bootstrap 4 | Home Control Mobile App\
-https://www.youtube.com/playlist?list=PL1deGqcRrtmJ4_AqI9zMCgbnr6LnooLkm\
+https://www.youtube.com/playlist?list=PL1deGqcRrtmJ4_AqI9zMCgbnr6LnooLkm
 
 <br/>
 UI Design:
