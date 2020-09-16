@@ -1,0 +1,124 @@
+/*CSS styles for page 2*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #1565d6;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 330px;
+    height: 700px;
+    border: 10px solid #040002;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+div.dark-bg {
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #182c37, #1e222b);
+}
+
+div.dark-bg::before {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 100%;
+    right: -10px;
+    z-index: -1;
+    background: linear-gradient(to bottom, #1565d6, #d41855);
+}
+
+span.kpi-value {
+    font-size: 26px;
+    font-weight: lighter;
+    font-family: Barlow, sans-serif;
+    color: #e8f2f5;
+}
+
+span.kpi-label {
+    font-size: 10px;
+    color: #e8f2f5;
+}
+
+span.kpi-desc {
+    font-size: 10px;
+    color: rgba(232,242,245, 0.5);
+}
+
+.fa.fa-long-arrow-left {
+    color: #e8f2f5;
+}
+
+div.blue-fade {
+    width: 10px;
+    height: 40%;
+    right: -10px;
+    position: absolute;
+    box-shadow: 2px 0px 50px 10px rgba(35,116,215,0.6);
+}
+
+div.red-fade {
+    width: 10px;
+    height: 60%;
+    right: -10px;
+    position: absolute;
+    box-shadow: 2px 0px 50px 10px rgba(212,24,85,0.6);
+    bottom: 0px;
+}
+
+div.curve {
+    top: 100px;
+    right: -23px;
+    position: absolute;
+    width: 32px;
+    height: 45px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      background: linear-gradient(to bottom, #305AC4,#3E55BA );
+      box-shadow: 
+      inset 2px 0px 5px 0px rgba(0, 195, 255, 0.67), 
+      0px 0px 15px 5px rgba(10, 173, 223,0.5);
+}
+
+span.temperature {
+    font-size: 4em;
+    color: white;
+    font-weight: lighter;
+}
+
+span.degree-label {
+    color: #3d464f;
+    font-size: 1.5em;
+}
+
+span.small-temp {
+    color: #3d464f;
+    font-size: 20px;
+}
+
+span.small-degree-label {
+    color: #3d464f;
+    font-size: 10px;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+span.icon-label {
+    font-size: 10px;
+    color: rgba(232,242,245,0.4);
+}
+
+.inactive {
+    color: #3d464f;
+}
+
+.active {
+    background: -webkit-linear-gradient(#44a4da,#2667c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

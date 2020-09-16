@@ -1,0 +1,144 @@
+/*CSS styles for page 1*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1653a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container {
+    width: 330px;
+    height: 700px;
+    border: 10px solid #040002;
+    background-color: #1565D6;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+div.profile {
+    width: 50px;
+    height: 50px;
+    background-color: #1565d6;
+    border-radius: 50%;
+}
+
+span.weather-greet {
+    color: #61747f;
+    font-size: 14px;
+}
+
+span.name {
+    color: #e8f2f5;
+    font-size: 20px;
+}
+
+.fa.fa-plus {
+    color: #e8f2f5;
+}
+
+div.dark-bg {
+    background: linear-gradient(to bottom, #182c37, #1e222b);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+}
+
+.active {
+    background: linear-gradient(#44a4da, #2667c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.temperature-circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(340deg, rgba(225,10,83,1) 40%, rgba(32,171,253,1) 85%, rgba(6,157,245,1) 87%, rgba(46,197,244,1) 97%, rgba(32,171,253,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+    -1px -1px 50px 10px rgba(46,197,244,0.1),
+        20px 20px 50px 5px rgba(225,50,83,0.1);
+    overflow: hidden;
+}
+
+div.temperature-circle::before {
+    content: '';
+    width: 196px;
+    height: 196px;
+    border-radius: 50%;
+    background-color: #1e222b;
+    box-shadow: inset 2px 2px 20px 0px rgba(255,255,255,0.1), 
+            inset -2px -2px 20px 0px rgba(255,255,255,0.1);
+}
+
+div.glow {
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(6,157,245,1), 
+    rgba(6,157,245,1) 65% , 
+    rgba(62,220,255,1) 90% , 
+    rgb(116, 222, 255) );
+    top: -8px;
+    left: 45px;
+    box-shadow: 1px 1px 15px 5px rgb(62, 220, 255, 0.3);
+    transform: rotate(-20deg);
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+span.temperature {
+    font-size: 4em;
+    color: white;
+    font-weight: lighter;
+}
+
+span.degree-label {
+    color: #3d464f;
+    font-size: 1.5em;
+}
+
+span.small-temp {
+    color: #3d464f;
+    font-size: 20px;
+}
+
+span.small-degree-label {
+    color: #3d464f;
+    font-size: 10px;
+}
+
+.inactive {
+    color: #3d464f;
+}
+
+span.kpi-value {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #e8f2f5;
+    font-family: Barlow, sans-serif;
+}
+
+span.kpi-label {
+    font-size: 10px;
+    color: #e8f2f5;
+}
+
+span.kpi-desc {
+    font-size: 10px;
+    color: rgba(232,242,245,0.5);
+}
+
+div.v-line {
+    height: 20px;
+    width: 1px;
+    background-color: rgba(232,242,245,0.5);
+}
